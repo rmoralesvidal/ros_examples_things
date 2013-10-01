@@ -35,3 +35,4 @@ INCLUDE_DIRECTORIES(${PROJECT_SOURCE_DIR}/ros/include
 
 # Ejemplo de coger el path de un package de ROS
 rosbuild_add_executable(ros_package_path_main ros/src/ros_package_path_main.cpp)
+rosbuild_add_executable(read_stl_binary_file_main ros/src/read_stl_binary_file_main.cpp)
